@@ -1,0 +1,6 @@
+﻿  GamePlay.cpp
+C:\GitHub\VGP230FinalGame\2DPlatformGameFinal\GamePlay.cpp(43,11): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\GitHub\VGP230FinalGame\2DPlatformGameFinal\GamePlay.cpp(44,11): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\GitHub\VGP230FinalGame\2DPlatformGameFinal\GamePlay.cpp(114,12): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\GitHub\VGP230FinalGame\2DPlatformGameFinal\GamePlay.cpp(127,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  2DPlatformGameFinal.vcxproj -> C:\GitHub\VGP230FinalGame\2DPlatformGameFinal\x64\Debug\2DPlatformGameFinal.exe
