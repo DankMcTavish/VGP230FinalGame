@@ -67,13 +67,10 @@ This project is a demonstration of concepts and skills learned throughout VGP230
 - **R** - Restart the game
 
 ## 📸 Screenshots
-
-![Gameplay Demo](assets/GamePlay.gif)
-![showing gameover](assets/GameOver.gif)
+![GamePlay2](https://github.com/user-attachments/assets/55a346c2-569b-4fbb-ab83-fe20078952f2)
 
 
-
-## 📦 Credits & Assets![GamePlay](https://github.com/user-attachments/assets/258f94d6-45b2-4efa-b64d-7f51cc013c4b)
+## 📦 Credits & Assets
 
 
 - Programming: [DankMcTavish](https://github.com/DankMcTavish)
@@ -89,6 +86,15 @@ This project is for educational purposes. See [LICENSE](LICENSE) for more inform
 
 Pull requests are welcome! For major changes, please open an issue to discuss what you would like to change.
 
+## Next steps
+
+The next things that can be worked on and added
+1. 
+
 ---
 
 Made with ❤️ for VGP230 by [DankMcTavish](https://github.com/DankMcTavish)
+
+
+
+![GameOver2](https://github.com/user-attachments/assets/312d8221-2bfb-4299-b973-37d31574272e)
