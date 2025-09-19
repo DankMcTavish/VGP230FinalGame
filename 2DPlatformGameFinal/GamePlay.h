@@ -16,6 +16,7 @@ public:
 	void ScoreUp();
 	void UpdateScore();
 	void GameOver();
+	void ResetBlocks(Blocks block);
 	int GetScreenW() { return screenW; }
 	int GetScreenH() { return screenH; }
 	int GetScore() { return score; }
@@ -30,6 +31,7 @@ private:
 	int score;
 	float gravity = 0.1f;
 	float lastScoreTime;
+	float fallSpeed = 1.0f;
 	bool isGameOver = false;
 	std::vector<Blocks> blocks;
 	Character player;

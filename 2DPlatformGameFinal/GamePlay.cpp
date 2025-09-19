@@ -84,17 +84,27 @@ void GamePlay::Update()
 	
 	for (int i = 0; i < blocks.size(); i++)
 	{
-		blocks[i].MoveDown(blocks[i].blockSpeed);
+		if (!isGameOver)
+		{
+			blocks[i].MoveDown(fallSpeed);
+		}
 		if (blocks[i].position.y > screenH) 
 		{
-			blocks[i].position.y = 0;
-			blocks[i].position.x = GetRandomValue(0, screenW - blocks[i].width);
+			ResetBlocks(blocks[i]);
 		}
 		if (CheckCollisionRecs(player.GetCollisionRect(), blocks[i].GetRect())) 
 		{
+
 		}
 
 	}
+}
+
+void GamePlay::ResetBlocks(Blocks platform)
+{
+	platform.position.y = 0;
+	platform.position.x = GetRandomValue(0, screenW - platform.width);
+
 }
 
 void GamePlay::ScoreUp()
@@ -110,10 +120,15 @@ void GamePlay::ScoreUp()
 			lastScoreTime = time;
 		}
 	}
+	else
+		score = score;
+
 	DrawText(TextFormat("Score: %d", score/10), 10, 10, 20, BLACK);
+
 }
 
 void GamePlay::GameOver()
 {
 	DrawText("Game Over!", screenW / 2 - 100, screenH / 2 - 50, 40, RED);
+	DrawText(TextFormat("Score: %d", score / 10), screenW / 2, screenH / 2, 20, BLACK);
 }

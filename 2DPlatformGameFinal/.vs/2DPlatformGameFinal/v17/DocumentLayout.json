@@ -7,20 +7,20 @@
       "RelativeMoniker": "D:0:0:{D0D615D2-072F-41FF-9C3E-26A6094F0D24}|2DPlatformGameFinal.vcxproj|solutionrelative:GamePlay.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0D615D2-072F-41FF-9C3E-26A6094F0D24}|2DPlatformGameFinal.vcxproj|E:\\GitHub\\VGP230FinalGame\\2DPlatformGameFinal\\Character.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{D0D615D2-072F-41FF-9C3E-26A6094F0D24}|2DPlatformGameFinal.vcxproj|solutionrelative:Character.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D0D615D2-072F-41FF-9C3E-26A6094F0D24}|2DPlatformGameFinal.vcxproj|E:\\GitHub\\VGP230FinalGame\\2DPlatformGameFinal\\GamePlay.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{D0D615D2-072F-41FF-9C3E-26A6094F0D24}|2DPlatformGameFinal.vcxproj|solutionrelative:GamePlay.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0D615D2-072F-41FF-9C3E-26A6094F0D24}|2DPlatformGameFinal.vcxproj|E:\\GitHub\\VGP230FinalGame\\2DPlatformGameFinal\\Character.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{D0D615D2-072F-41FF-9C3E-26A6094F0D24}|2DPlatformGameFinal.vcxproj|solutionrelative:Character.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D0D615D2-072F-41FF-9C3E-26A6094F0D24}|2DPlatformGameFinal.vcxproj|E:\\GitHub\\VGP230FinalGame\\2DPlatformGameFinal\\Blocks.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{D0D615D2-072F-41FF-9C3E-26A6094F0D24}|2DPlatformGameFinal.vcxproj|solutionrelative:Blocks.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0D615D2-072F-41FF-9C3E-26A6094F0D24}|2DPlatformGameFinal.vcxproj|E:\\GitHub\\VGP230FinalGame\\2DPlatformGameFinal\\Character.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D0D615D2-072F-41FF-9C3E-26A6094F0D24}|2DPlatformGameFinal.vcxproj|solutionrelative:Character.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0D615D2-072F-41FF-9C3E-26A6094F0D24}|2DPlatformGameFinal.vcxproj|E:\\GitHub\\VGP230FinalGame\\2DPlatformGameFinal\\Character.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D0D615D2-072F-41FF-9C3E-26A6094F0D24}|2DPlatformGameFinal.vcxproj|solutionrelative:Character.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D0D615D2-072F-41FF-9C3E-26A6094F0D24}|2DPlatformGameFinal.vcxproj|E:\\GitHub\\VGP230FinalGame\\2DPlatformGameFinal\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -50,13 +50,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Blocks.h",
               "DocumentMoniker": "E:\\GitHub\\VGP230FinalGame\\2DPlatformGameFinal\\Blocks.h",
               "RelativeDocumentMoniker": "Blocks.h",
               "ToolTip": "E:\\GitHub\\VGP230FinalGame\\2DPlatformGameFinal\\Blocks.h",
               "RelativeToolTip": "Blocks.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-09-12T22:02:04.359Z",
               "EditorCaption": ""
@@ -69,27 +69,27 @@
               "RelativeDocumentMoniker": "GamePlay.cpp",
               "ToolTip": "E:\\GitHub\\VGP230FinalGame\\2DPlatformGameFinal\\GamePlay.cpp",
               "RelativeToolTip": "GamePlay.cpp",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAAAF0AAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAAAIMAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-09-12T20:34:24.818Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "GamePlay.h",
               "DocumentMoniker": "E:\\GitHub\\VGP230FinalGame\\2DPlatformGameFinal\\GamePlay.h",
               "RelativeDocumentMoniker": "GamePlay.h",
               "ToolTip": "E:\\GitHub\\VGP230FinalGame\\2DPlatformGameFinal\\GamePlay.h",
               "RelativeToolTip": "GamePlay.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-09-12T20:32:32.979Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Character.cpp",
               "DocumentMoniker": "E:\\GitHub\\VGP230FinalGame\\2DPlatformGameFinal\\Character.cpp",
               "RelativeDocumentMoniker": "Character.cpp",
@@ -97,12 +97,11 @@
               "RelativeToolTip": "Character.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-09-12T20:34:30.761Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-12T20:34:30.761Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Character.h",
               "DocumentMoniker": "E:\\GitHub\\VGP230FinalGame\\2DPlatformGameFinal\\Character.h",
               "RelativeDocumentMoniker": "Character.h",
@@ -110,8 +109,7 @@
               "RelativeToolTip": "Character.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-09-12T20:27:26.591Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-12T20:27:26.591Z"
             },
             {
               "$type": "Document",
@@ -123,8 +121,7 @@
               "RelativeToolTip": "Main.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-09-12T20:20:57.823Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-12T20:20:57.823Z"
             }
           ]
         }
