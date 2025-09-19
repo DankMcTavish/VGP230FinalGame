@@ -69,6 +69,8 @@ This project is a demonstration of concepts and skills learned throughout VGP230
 ## 📸 Screenshots
 
 ![Gameplay Demo](assets/GamePlay.gif)
+![showing gameover](assets/GameOver.gif)
+
 
 
 ## 📦 Credits & Assets![GamePlay](https://github.com/user-attachments/assets/258f94d6-45b2-4efa-b64d-7f51cc013c4b)
@@ -90,5 +92,3 @@ Pull requests are welcome! For major changes, please open an issue to discuss wh
 ---
 
 Made with ❤️ for VGP230 by [DankMcTavish](https://github.com/DankMcTavish)
-
-![Ending](assets/GameOver.gif)
