@@ -12,13 +12,14 @@ public:
 	void Draw();
 	void Move(Vector2 direction);
 	void Controls();
-	void Update();
+	void Update(int w, int y);
 	Rectangle GetCollisionRect() const;
 	Vector2 playerLocation;
 	bool isOnBlock;
 	bool isJumping;
 	bool isFalling;
 	Vector2 velocity;
+	void LandOnBlock(float xy);
 
 private:	
 	Vector2 playerSize;

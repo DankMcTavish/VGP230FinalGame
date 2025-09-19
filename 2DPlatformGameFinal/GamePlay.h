@@ -14,20 +14,20 @@ public:
 	void Draw();
 	void Update();
 	void ScoreUp();
-	void UpdateScore();
 	void GameOver();
 	void ResetBlocks(Blocks block);
 	int GetScreenW() { return screenW; }
 	int GetScreenH() { return screenH; }
 	int GetScore() { return score; }
-
+	void CheckCollisions();
 	void InitBlocks(int count, int screenWidth, int screenHeight);
 	void DrawBlocks();
+	void RestartGame();
 
+	int screenW = 400;
+	int screenH = 1440;
 
 private:
-	int screenW = 500;
-	int screenH = 900;
 	int score;
 	float gravity = 0.1f;
 	float lastScoreTime;
