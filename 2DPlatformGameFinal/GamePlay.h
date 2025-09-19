@@ -24,10 +24,11 @@ public:
 	void DrawBlocks();
 	void RestartGame();
 
-	int screenW = 400;
-	int screenH = 1440;
+	int screenW = 540;
+	int screenH = 960;
 
 private:
+	int numOfBlocks = 14;
 	int score;
 	float gravity = 0.1f;
 	float lastScoreTime;

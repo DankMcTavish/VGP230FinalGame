@@ -20,6 +20,7 @@ public:
 	bool isFalling;
 	Vector2 velocity;
 	void LandOnBlock(float xy);
+	Texture2D characterTexture; 
 
 private:	
 	Vector2 playerSize;
