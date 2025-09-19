@@ -91,4 +91,4 @@ Pull requests are welcome! For major changes, please open an issue to discuss wh
 
 Made with ❤️ for VGP230 by [DankMcTavish](https://github.com/DankMcTavish)
 
-![Gameplay Demo](assets/GameOver.gif)
+![Ending](assets/GameOver.gif)
