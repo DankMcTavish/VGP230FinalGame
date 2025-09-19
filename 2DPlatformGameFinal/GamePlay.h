@@ -14,6 +14,7 @@ public:
 	void Draw();
 	void Update();
 	void ScoreUp();
+	void UpdateScore();
 	void GameOver();
 	int GetScreenW() { return screenW; }
 	int GetScreenH() { return screenH; }
@@ -24,10 +25,11 @@ public:
 
 
 private:
-	int screenW = 600;
-	int screenH = 1000;
+	int screenW = 500;
+	int screenH = 900;
 	int score;
 	float gravity = 0.1f;
+	float lastScoreTime;
 	bool isGameOver = false;
 	std::vector<Blocks> blocks;
 	Character player;

@@ -10,6 +10,7 @@ public:
     int width = 60;
     int height = 20;
     Color color = BLACK;
+	float blockSpeed = 1.0f;
 
 
 

@@ -15,8 +15,9 @@ public:
 	void Update();
 	Rectangle GetCollisionRect() const;
 	Vector2 playerLocation;
-	bool isOnGround;
+	bool isOnBlock;
 	bool isJumping;
+	bool isFalling;
 	Vector2 velocity;
 
 private:	

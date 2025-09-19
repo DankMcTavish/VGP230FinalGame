@@ -40,7 +40,7 @@ void Character::Update()
         playerLocation.y += velocity.y;
     }
 
-    if (isOnGround)
+    if (isOnBlock)
     {
         isJumping = false;
         velocity.y = 0.0f;
@@ -53,8 +53,9 @@ void Character::Controls()
     if (IsKeyDown(KEY_LEFT))  playerLocation.x -= 5.0f;
     if (IsKeyPressed(KEY_SPACE) && !isJumping)
     {
-        isJumping = true;
-        velocity.y = jumpForce;
+      isJumping = true;
+      isOnBlock = false;
+      velocity.y = jumpForce; // Your jump strength
     }
 }
 

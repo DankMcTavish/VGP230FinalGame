@@ -3,6 +3,7 @@
 #include "raylib.h"	
 #include <iostream>
 #include <vector>
+#include "raymath.h"
 
 
 GamePlay::GamePlay()
@@ -41,7 +42,7 @@ void GamePlay::InitBlocks(int count, int screenWidth, int screenHeight)
 	blocks.clear();
 	for (int i = 0; i < count; i++) {
 		float x = GetRandomValue(0, screenWidth - 60);
-		float y = screenHeight - i * 150; // space vertically
+		float y = screenHeight - i * 150;
 		blocks.push_back(Blocks(x, y));
 	}
 }
@@ -61,14 +62,14 @@ void GamePlay::Draw()
 
 }
 
-#include "raymath.h" // Include raymath for vector operations
 
 void GamePlay::Update()
 {
     player.Controls();
     player.Update();
-
     ScoreUp();
+
+	player.isOnBlock = false;
 
     if (player.playerLocation.y > screenH)
     {
@@ -77,48 +78,23 @@ void GamePlay::Update()
 
     if (isGameOver)
     {
-        // Game over logic
         GameOver();
     }
 
-    for (int i = 0; i < blocks.size(); i++) 
-    {
-        // Convert Rectangle to BoundingBox for collision check
-        BoundingBox playerBox = {
-            Vector3{ player.GetCollisionRect().x, player.GetCollisionRect().y, 0 },
-            Vector3{ player.GetCollisionRect().x + player.GetCollisionRect().width, player.GetCollisionRect().y + player.GetCollisionRect().height, 0 }
-        };
-
-        BoundingBox blockBox = {
-            Vector3{ blocks[i].GetRect().x, blocks[i].GetRect().y, 0 },
-            Vector3{ blocks[i].GetRect().x + blocks[i].GetRect().width, blocks[i].GetRect().y + blocks[i].GetRect().height, 0 }
-        };
-
-        if (CheckCollisionBoxes(playerBox, blockBox))
-        {
-            // Handle collision logic here
-			player.playerLocation.y = blocks[i].GetRect().y - player.GetCollisionRect().height; // Position player on top of block
-			player.velocity.y = 0; // Stop downward velocity
-			player.isJumping = false; // Allow jumping again
-        }
-		else
+	
+	for (int i = 0; i < blocks.size(); i++)
+	{
+		blocks[i].MoveDown(blocks[i].blockSpeed);
+		if (blocks[i].position.y > screenH) 
 		{
-			player.isOnGround = false; // Not on ground if not colliding
+			blocks[i].position.y = 0;
+			blocks[i].position.x = GetRandomValue(0, screenW - blocks[i].width);
+		}
+		if (CheckCollisionRecs(player.GetCollisionRect(), blocks[i].GetRect())) 
+		{
 		}
 
-		// Move blocks downwards
-		blocks[i].MoveDown(2.0f); // Adjust speed as necessary
-		// Reposition block if it goes off-screen
-		if (blocks[i].GetRect().y > screenH)
-		{
-			float x = GetRandomValue(0, screenW - 60);
-			float y = -60; // Start above the screen
-			blocks[i] = Blocks(x, y); // Reset block position
-		}
-
-		player.isOnGround = false;
-
-    }
+	}
 }
 
 void GamePlay::ScoreUp()
@@ -134,14 +110,7 @@ void GamePlay::ScoreUp()
 			lastScoreTime = time;
 		}
 	}
-
-	if (isGameOver)
-	{
-		DrawText(TextFormat("Score: %d", score/10), 10, 10, 20, BLACK);
-	}
-
-
-		DrawText(TextFormat("Score: %d", score/10), 10, 10, 20, BLACK);
+	DrawText(TextFormat("Score: %d", score/10), 10, 10, 20, BLACK);
 }
 
 void GamePlay::GameOver()
