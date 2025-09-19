@@ -9,11 +9,9 @@ This project is a demonstration of concepts and skills learned throughout VGP230
 ## ✨ Features
 
 - Built with **raylib** in C/C++
-- Custom graphics and animations
 - Responsive player controls
 - Score tracking and win/lose conditions
-- Sound effects and background music
-- Clean, readable code with comments
+- Clean, readable code
 
 ## 🛠️ Built With
 
@@ -67,19 +65,15 @@ This project is a demonstration of concepts and skills learned throughout VGP230
 - **R** - Restart the game
 
 ## 📸 Screenshots
-
-![Gameplay Demo](assets/GamePlay.gif)
-![showing gameover](assets/GameOver.gif)
+![GamePlay2](https://github.com/user-attachments/assets/55a346c2-569b-4fbb-ab83-fe20078952f2)
 
 
-
-## 📦 Credits & Assets![GamePlay](https://github.com/user-attachments/assets/258f94d6-45b2-4efa-b64d-7f51cc013c4b)
+## 📦 Credits & Assets
 
 
 - Programming: [DankMcTavish](https://github.com/DankMcTavish)
-- Art & Audio: [List your sources or note if you created them yourself]
 - Libraries: [raylib](https://www.raylib.com/)
-- Special thanks to [instructors, classmates, contributors, etc.]
+- Special thanks to [Amir - Teacher]
 
 ## 📝 License
 
@@ -89,6 +83,20 @@ This project is for educational purposes. See [LICENSE](LICENSE) for more inform
 
 Pull requests are welcome! For major changes, please open an issue to discuss what you would like to change.
 
+## Next steps
+
+The next things that can be worked on and added
+1. Collision logic. Stop player from coming up from below the platforms
+2. Textures
+3. High score system
+4. Menu. View high scores, change difficulty and screen size
+5. Adjust platform creation location logic
+6. Adjust camera
+
 ---
 
 Made with ❤️ for VGP230 by [DankMcTavish](https://github.com/DankMcTavish)
+
+
+
+![GameOver2](https://github.com/user-attachments/assets/312d8221-2bfb-4299-b973-37d31574272e)
